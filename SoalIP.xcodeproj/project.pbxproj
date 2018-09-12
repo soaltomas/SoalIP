@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3143A7A17BF54EBFD3EF86AE /* Pods_SoalIPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A710CB0438266CFCE0C5D138 /* Pods_SoalIPUITests.framework */; };
+		6D4AD1CB43D70286C83E5BEC /* Pods_SoalIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D693BF9F038F552C8799C289 /* Pods_SoalIP.framework */; };
+		C32A7755214889C7005CA05B /* IPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A7754214889C7005CA05B /* IPManager.swift */; };
+		C32A775721488FE6005CA05B /* DotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A775621488FE6005CA05B /* DotButton.swift */; };
+		C32CBC79211884A60084FD9F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32CBC78211884A60084FD9F /* CustomButton.swift */; };
+		C38826D8210DAF5F00BAA445 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38826D7210DAF5F00BAA445 /* PageViewController.swift */; };
+		C38826E0211341C100BAA445 /* IPv4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38826DF211341C100BAA445 /* IPv4ViewController.swift */; };
+		C39BAB9D2109CC2F0065363A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BAB9C2109CC2F0065363A /* AppDelegate.swift */; };
+		C39BAB9F2109CC2F0065363A /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BAB9E2109CC2F0065363A /* TrackingViewController.swift */; };
+		C39BABA22109CC2F0065363A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39BABA02109CC2F0065363A /* Main.storyboard */; };
+		C39BABA42109CC310065363A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39BABA32109CC310065363A /* Assets.xcassets */; };
+		C39BABA72109CC310065363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39BABA52109CC310065363A /* LaunchScreen.storyboard */; };
+		C39BABB22109CC310065363A /* SoalIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BABB12109CC310065363A /* SoalIPTests.swift */; };
+		C39BABBD2109CC310065363A /* SoalIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BABBC2109CC310065363A /* SoalIPUITests.swift */; };
+		C3B9D8102146B3FE00F71342 /* SessionManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D80F2146B3FE00F71342 /* SessionManagerFactory.swift */; };
+		C3B9D8142146B44D00F71342 /* AbstractRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D8132146B44D00F71342 /* AbstractRequestFactory.swift */; };
+		C3B9D8162146B47200F71342 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D8152146B47200F71342 /* RequestFactory.swift */; };
+		C3B9D81A2146B4C800F71342 /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D8192146B4C800F71342 /* AbstractErrorParser.swift */; };
+		C3B9D81C2146B4DF00F71342 /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D81B2146B4DF00F71342 /* ErrorParser.swift */; };
+		C3B9D81E2146B4F700F71342 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D81D2146B4F700F71342 /* NetworkError.swift */; };
+		C3B9D8212146B58C00F71342 /* TrackingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D8202146B58C00F71342 /* TrackingResponse.swift */; };
+		C3B9D8232146F2A000F71342 /* TrackingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9D8222146F2A000F71342 /* TrackingRequest.swift */; };
+		F3CEA4033829895EE9E13BF1 /* Pods_SoalIPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF88F9E5BD9181249057AE13 /* Pods_SoalIPTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39BABAE2109CC310065363A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39BAB912109CC2F0065363A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39BAB982109CC2F0065363A;
+			remoteInfo = SoalIP;
+		};
+		C39BABB92109CC310065363A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39BAB912109CC2F0065363A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39BAB982109CC2F0065363A;
+			remoteInfo = SoalIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C32CBC8B211D73B60084FD9F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0661D7DDF0F2549A72CE3D24 /* Pods-SoalIPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoalIPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoalIPTests/Pods-SoalIPTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A2BB9FBEE344104682831F3 /* Pods-SoalIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoalIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoalIP/Pods-SoalIP.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD342E51B526D52F87CE0D7 /* Pods-SoalIPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoalIPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoalIPTests/Pods-SoalIPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7D26DFAA1F88C459D55708 /* Pods-SoalIPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoalIPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoalIPUITests/Pods-SoalIPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A60E05300EE3EA30F67E3C52 /* Pods-SoalIPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoalIPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoalIPUITests/Pods-SoalIPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A710CB0438266CFCE0C5D138 /* Pods_SoalIPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoalIPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32A7754214889C7005CA05B /* IPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPManager.swift; sourceTree = "<group>"; };
+		C32A775621488FE6005CA05B /* DotButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotButton.swift; sourceTree = "<group>"; };
+		C32CBC78211884A60084FD9F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C38826D7210DAF5F00BAA445 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C38826DF211341C100BAA445 /* IPv4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPv4ViewController.swift; sourceTree = "<group>"; };
+		C39BAB992109CC2F0065363A /* SoalIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoalIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39BAB9C2109CC2F0065363A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C39BAB9E2109CC2F0065363A /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		C39BABA12109CC2F0065363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C39BABA32109CC310065363A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39BABA62109CC310065363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C39BABA82109CC310065363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39BABAD2109CC310065363A /* SoalIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoalIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39BABB12109CC310065363A /* SoalIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoalIPTests.swift; sourceTree = "<group>"; };
+		C39BABB32109CC310065363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39BABB82109CC310065363A /* SoalIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoalIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39BABBC2109CC310065363A /* SoalIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoalIPUITests.swift; sourceTree = "<group>"; };
+		C39BABBE2109CC310065363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B9D80F2146B3FE00F71342 /* SessionManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerFactory.swift; sourceTree = "<group>"; };
+		C3B9D8132146B44D00F71342 /* AbstractRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestFactory.swift; sourceTree = "<group>"; };
+		C3B9D8152146B47200F71342 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		C3B9D8192146B4C800F71342 /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
+		C3B9D81B2146B4DF00F71342 /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		C3B9D81D2146B4F700F71342 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C3B9D8202146B58C00F71342 /* TrackingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingResponse.swift; sourceTree = "<group>"; };
+		C3B9D8222146F2A000F71342 /* TrackingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingRequest.swift; sourceTree = "<group>"; };
+		D693BF9F038F552C8799C289 /* Pods_SoalIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoalIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF88F9E5BD9181249057AE13 /* Pods_SoalIPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoalIPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2BA3289E4F91CA446D150E /* Pods-SoalIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoalIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoalIP/Pods-SoalIP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39BAB962109CC2F0065363A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4AD1CB43D70286C83E5BEC /* Pods_SoalIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39BABAA2109CC310065363A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CEA4033829895EE9E13BF1 /* Pods_SoalIPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39BABB52109CC310065363A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3143A7A17BF54EBFD3EF86AE /* Pods_SoalIPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC822BFC16A372873DBD326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D693BF9F038F552C8799C289 /* Pods_SoalIP.framework */,
+				EF88F9E5BD9181249057AE13 /* Pods_SoalIPTests.framework */,
+				A710CB0438266CFCE0C5D138 /* Pods_SoalIPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F6116087847378CE6CB67D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A2BB9FBEE344104682831F3 /* Pods-SoalIP.debug.xcconfig */,
+				FB2BA3289E4F91CA446D150E /* Pods-SoalIP.release.xcconfig */,
+				6AD342E51B526D52F87CE0D7 /* Pods-SoalIPTests.debug.xcconfig */,
+				0661D7DDF0F2549A72CE3D24 /* Pods-SoalIPTests.release.xcconfig */,
+				A60E05300EE3EA30F67E3C52 /* Pods-SoalIPUITests.debug.xcconfig */,
+				6D7D26DFAA1F88C459D55708 /* Pods-SoalIPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C32CBC772118847E0084FD9F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C32CBC78211884A60084FD9F /* CustomButton.swift */,
+				C32A775621488FE6005CA05B /* DotButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C38826D921133E5900BAA445 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D81F2146B57000F71342 /* Entities */,
+				C38826DA21133E6C00BAA445 /* Controllers */,
+				C39BAB9C2109CC2F0065363A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C38826DA21133E6C00BAA445 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C32CBC772118847E0084FD9F /* CustomView */,
+				C39BAB9E2109CC2F0065363A /* TrackingViewController.swift */,
+				C38826D7210DAF5F00BAA445 /* PageViewController.swift */,
+				C38826DF211341C100BAA445 /* IPv4ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C38826DB21133EA700BAA445 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C39BABA02109CC2F0065363A /* Main.storyboard */,
+				C39BABA32109CC310065363A /* Assets.xcassets */,
+				C39BABA52109CC310065363A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C38826DC21133ECA00BAA445 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				C39BABA82109CC310065363A /* Info.plist */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		C39BAB902109CC2F0065363A = {
+			isa = PBXGroup;
+			children = (
+				C39BAB9B2109CC2F0065363A /* SoalIP */,
+				C39BABB02109CC310065363A /* SoalIPTests */,
+				C39BABBB2109CC310065363A /* SoalIPUITests */,
+				C39BAB9A2109CC2F0065363A /* Products */,
+				C2F6116087847378CE6CB67D /* Pods */,
+				8CC822BFC16A372873DBD326 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C39BAB9A2109CC2F0065363A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39BAB992109CC2F0065363A /* SoalIP.app */,
+				C39BABAD2109CC310065363A /* SoalIPTests.xctest */,
+				C39BABB82109CC310065363A /* SoalIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39BAB9B2109CC2F0065363A /* SoalIP */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D80D2146B1EC00F71342 /* Core */,
+				C38826DC21133ECA00BAA445 /* Environment */,
+				C38826DB21133EA700BAA445 /* Resources */,
+				C38826D921133E5900BAA445 /* App */,
+			);
+			path = SoalIP;
+			sourceTree = "<group>";
+		};
+		C39BABB02109CC310065363A /* SoalIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39BABB12109CC310065363A /* SoalIPTests.swift */,
+				C39BABB32109CC310065363A /* Info.plist */,
+			);
+			path = SoalIPTests;
+			sourceTree = "<group>";
+		};
+		C39BABBB2109CC310065363A /* SoalIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C39BABBC2109CC310065363A /* SoalIPUITests.swift */,
+				C39BABBE2109CC310065363A /* Info.plist */,
+			);
+			path = SoalIPUITests;
+			sourceTree = "<group>";
+		};
+		C3B9D80D2146B1EC00F71342 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D80E2146B1F400F71342 /* Network */,
+				C32A7754214889C7005CA05B /* IPManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C3B9D80E2146B1F400F71342 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D8122146B42B00F71342 /* Error */,
+				C3B9D8112146B42300F71342 /* Requests */,
+				C3B9D80F2146B3FE00F71342 /* SessionManagerFactory.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C3B9D8112146B42300F71342 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D8132146B44D00F71342 /* AbstractRequestFactory.swift */,
+				C3B9D8152146B47200F71342 /* RequestFactory.swift */,
+				C3B9D8222146F2A000F71342 /* TrackingRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		C3B9D8122146B42B00F71342 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D8192146B4C800F71342 /* AbstractErrorParser.swift */,
+				C3B9D81B2146B4DF00F71342 /* ErrorParser.swift */,
+				C3B9D81D2146B4F700F71342 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		C3B9D81F2146B57000F71342 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C3B9D8202146B58C00F71342 /* TrackingResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39BAB982109CC2F0065363A /* SoalIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39BABC12109CC310065363A /* Build configuration list for PBXNativeTarget "SoalIP" */;
+			buildPhases = (
+				5C769492610A95D0078AD171 /* [CP] Check Pods Manifest.lock */,
+				C39BAB952109CC2F0065363A /* Sources */,
+				C39BAB962109CC2F0065363A /* Frameworks */,
+				C39BAB972109CC2F0065363A /* Resources */,
+				C826B714E36ED3D3B1FE3518 /* [CP] Embed Pods Frameworks */,
+				C32CBC8B211D73B60084FD9F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoalIP;
+			productName = SoalIP;
+			productReference = C39BAB992109CC2F0065363A /* SoalIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39BABAC2109CC310065363A /* SoalIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39BABC42109CC310065363A /* Build configuration list for PBXNativeTarget "SoalIPTests" */;
+			buildPhases = (
+				7958679AED9EB9631E449858 /* [CP] Check Pods Manifest.lock */,
+				C39BABA92109CC310065363A /* Sources */,
+				C39BABAA2109CC310065363A /* Frameworks */,
+				C39BABAB2109CC310065363A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39BABAF2109CC310065363A /* PBXTargetDependency */,
+			);
+			name = SoalIPTests;
+			productName = SoalIPTests;
+			productReference = C39BABAD2109CC310065363A /* SoalIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C39BABB72109CC310065363A /* SoalIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39BABC72109CC310065363A /* Build configuration list for PBXNativeTarget "SoalIPUITests" */;
+			buildPhases = (
+				C33EEA4C231CFC00E9C608E4 /* [CP] Check Pods Manifest.lock */,
+				C39BABB42109CC310065363A /* Sources */,
+				C39BABB52109CC310065363A /* Frameworks */,
+				C39BABB62109CC310065363A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39BABBA2109CC310065363A /* PBXTargetDependency */,
+			);
+			name = SoalIPUITests;
+			productName = SoalIPUITests;
+			productReference = C39BABB82109CC310065363A /* SoalIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39BAB912109CC2F0065363A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tomas;
+				TargetAttributes = {
+					C39BAB982109CC2F0065363A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C39BABAC2109CC310065363A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C39BAB982109CC2F0065363A;
+					};
+					C39BABB72109CC310065363A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C39BAB982109CC2F0065363A;
+					};
+				};
+			};
+			buildConfigurationList = C39BAB942109CC2F0065363A /* Build configuration list for PBXProject "SoalIP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39BAB902109CC2F0065363A;
+			productRefGroup = C39BAB9A2109CC2F0065363A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39BAB982109CC2F0065363A /* SoalIP */,
+				C39BABAC2109CC310065363A /* SoalIPTests */,
+				C39BABB72109CC310065363A /* SoalIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39BAB972109CC2F0065363A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39BABA72109CC310065363A /* LaunchScreen.storyboard in Resources */,
+				C39BABA42109CC310065363A /* Assets.xcassets in Resources */,
+				C39BABA22109CC2F0065363A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39BABAB2109CC310065363A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39BABB62109CC310065363A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C769492610A95D0078AD171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoalIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7958679AED9EB9631E449858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoalIPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33EEA4C231CFC00E9C608E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoalIPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C826B714E36ED3D3B1FE3518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoalIP/Pods-SoalIP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoalIP/Pods-SoalIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39BAB952109CC2F0065363A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B9D8162146B47200F71342 /* RequestFactory.swift in Sources */,
+				C3B9D8142146B44D00F71342 /* AbstractRequestFactory.swift in Sources */,
+				C38826D8210DAF5F00BAA445 /* PageViewController.swift in Sources */,
+				C38826E0211341C100BAA445 /* IPv4ViewController.swift in Sources */,
+				C32A775721488FE6005CA05B /* DotButton.swift in Sources */,
+				C32A7755214889C7005CA05B /* IPManager.swift in Sources */,
+				C39BAB9F2109CC2F0065363A /* TrackingViewController.swift in Sources */,
+				C3B9D8102146B3FE00F71342 /* SessionManagerFactory.swift in Sources */,
+				C3B9D8212146B58C00F71342 /* TrackingResponse.swift in Sources */,
+				C3B9D81C2146B4DF00F71342 /* ErrorParser.swift in Sources */,
+				C39BAB9D2109CC2F0065363A /* AppDelegate.swift in Sources */,
+				C3B9D81A2146B4C800F71342 /* AbstractErrorParser.swift in Sources */,
+				C3B9D81E2146B4F700F71342 /* NetworkError.swift in Sources */,
+				C32CBC79211884A60084FD9F /* CustomButton.swift in Sources */,
+				C3B9D8232146F2A000F71342 /* TrackingRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39BABA92109CC310065363A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39BABB22109CC310065363A /* SoalIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39BABB42109CC310065363A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39BABBD2109CC310065363A /* SoalIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39BABAF2109CC310065363A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39BAB982109CC2F0065363A /* SoalIP */;
+			targetProxy = C39BABAE2109CC310065363A /* PBXContainerItemProxy */;
+		};
+		C39BABBA2109CC310065363A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39BAB982109CC2F0065363A /* SoalIP */;
+			targetProxy = C39BABB92109CC310065363A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39BABA02109CC2F0065363A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39BABA12109CC2F0065363A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C39BABA52109CC310065363A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39BABA62109CC310065363A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39BABBF2109CC310065363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C39BABC02109CC310065363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39BABC22109CC310065363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2BB9FBEE344104682831F3 /* Pods-SoalIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFHZRG4G3Z;
+				INFOPLIST_FILE = "$(SRCROOT)/SoalIP/Environment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soalgate.SoalIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C39BABC32109CC310065363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2BA3289E4F91CA446D150E /* Pods-SoalIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZFHZRG4G3Z;
+				INFOPLIST_FILE = "$(SRCROOT)/SoalIP/Environment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soalgate.SoalIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C39BABC52109CC310065363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD342E51B526D52F87CE0D7 /* Pods-SoalIPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoalIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soalgate.SoalIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoalIP.app/SoalIP";
+			};
+			name = Debug;
+		};
+		C39BABC62109CC310065363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0661D7DDF0F2549A72CE3D24 /* Pods-SoalIPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoalIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soalgate.SoalIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoalIP.app/SoalIP";
+			};
+			name = Release;
+		};
+		C39BABC82109CC310065363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60E05300EE3EA30F67E3C52 /* Pods-SoalIPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoalIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soalgate.SoalIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoalIP;
+			};
+			name = Debug;
+		};
+		C39BABC92109CC310065363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7D26DFAA1F88C459D55708 /* Pods-SoalIPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoalIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = soalgate.SoalIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoalIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39BAB942109CC2F0065363A /* Build configuration list for PBXProject "SoalIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39BABBF2109CC310065363A /* Debug */,
+				C39BABC02109CC310065363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39BABC12109CC310065363A /* Build configuration list for PBXNativeTarget "SoalIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39BABC22109CC310065363A /* Debug */,
+				C39BABC32109CC310065363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39BABC42109CC310065363A /* Build configuration list for PBXNativeTarget "SoalIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39BABC52109CC310065363A /* Debug */,
+				C39BABC62109CC310065363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39BABC72109CC310065363A /* Build configuration list for PBXNativeTarget "SoalIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39BABC82109CC310065363A /* Debug */,
+				C39BABC92109CC310065363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39BAB912109CC2F0065363A /* Project object */;
+}

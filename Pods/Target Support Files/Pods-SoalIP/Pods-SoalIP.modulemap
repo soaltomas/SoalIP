@@ -1,0 +1,6 @@
+framework module Pods_SoalIP {
+  umbrella header "Pods-SoalIP-umbrella.h"
+
+  export *
+  module * { export * }
+}
